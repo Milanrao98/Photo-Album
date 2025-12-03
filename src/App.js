@@ -12,7 +12,7 @@ import { db } from "./firebase";
 function App() {
   const [albums, setAlbums] = useState([]);
   const [loading, setLoading] = useState(false);
-  const [albumAddLoading, setAlbumAddLoading] = useState(false);
+  const [albumAddLoading] = useState(false);
   const [addAlbum, setAddAlbum] = useState(false);
   const [selectedAlbum, setSelectedAlbum] = useState(null);
 
